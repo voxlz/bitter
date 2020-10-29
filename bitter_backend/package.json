@@ -1,14 +1,22 @@
 {
   "name": "bitter_backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The server part of the bitter experience",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon src/index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "@types/express": "^4.17.8",
+    "@types/mongodb": "^3.5.31",
+    "@types/node": "^14.14.5",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
   }
 }

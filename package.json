@@ -1,0 +1,23 @@
+{
+  "name": "bitter_app",
+  "version": "1.0.0",
+  "description": "the bitter client/server wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently --kill-others \"npm run start --prefix ./bitter\" \"npm run start --prefix ./bitter_backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voxlz/bitter.git"
+  },
+  "author": "Voxlz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voxlz/bitter/issues"
+  },
+  "homepage": "https://github.com/voxlz/bitter#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
